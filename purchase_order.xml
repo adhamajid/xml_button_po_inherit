@@ -1,0 +1,2 @@
+<!-- kode tla: -->
+<button id="tombol_konfirmasi" class="oe_highlight" string="Tombol Konfirmasi" name="900" type="action" attrs="{'invisible': ['|', ('x_studio_company_button', 'not in', 3), ('state', 'not in', ['draft', 'sent'])]}"/>
